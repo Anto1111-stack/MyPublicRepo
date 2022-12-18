@@ -60,6 +60,102 @@ def product_pick():
             slowprint("Incorrect code!\n\nGame Over!")
             break
 
+        make_it_flash(corridor1['Lucozade Zero'])
+        print()
+        code = input("Enter the product key: ")
+
+        time.sleep(1.5)
+
+        if code == corridor1['Lucozade Zero']:
+            slowprint("Product picked.\n") 
+            time.sleep(2)
+            slowprint("Go to next location.")
+            time.sleep(2)
+
+        else:
+            slowprint("Incorrect code!\n\nGame Over!")
+            break
+
+        make_it_flash(corridor1['Lucozade Sport'])
+        print()
+        code = input("Enter the product key: ")
+
+        time.sleep(1.5)
+
+        if code == corridor1['Lucozade Sport']:
+            slowprint("Product picked.\n") 
+            time.sleep(2)
+            slowprint("Go to next location.")
+            time.sleep(2)
+
+        else:
+            slowprint("Incorrect code!\n\nGame Over!")
+            break
+
+        make_it_flash(corridor1['Lucozade Alert'])
+        print()
+        code = input("Enter the product key: ")
+
+        time.sleep(1.5)
+
+        if code == corridor1['Lucozade Alert']:
+            slowprint("Product picked.\n") 
+            time.sleep(2)
+            slowprint("Go to next location.")
+            time.sleep(2)
+
+        else:
+            slowprint("Incorrect code!\n\nGame Over!")
+            break
+
+        make_it_flash(corridor1['Lucozade Alert'])
+        print()
+        code = input("Enter the product key: ")
+
+        time.sleep(1.5)
+
+        if code == corridor1['Lucozade Alert']:
+            slowprint("Product picked.\n") 
+            time.sleep(2)
+            slowprint("Go to next location.")
+            time.sleep(2)
+
+        else:
+            slowprint("Incorrect code!\n\nGame Over!")
+            break
+
+        make_it_flash(corridor1['Lucozade Tropical'])
+        print()
+        code = input("Enter the product key: ")
+
+        time.sleep(1.5)
+
+        if code == corridor1['Lucozade Tropical']:
+            slowprint("Product picked.\n") 
+            time.sleep(2)
+            slowprint("Go to next location.")
+            time.sleep(2)
+
+        else:
+            slowprint("Incorrect code!\n\nGame Over!")
+            break
+
+        make_it_flash(corridor1['Lucozade Citrus'])
+        print()
+        code = input("Enter the product key: ")
+
+        time.sleep(1.5)
+
+        if code == corridor1['Lucozade Citrus']:
+            slowprint("Product picked.\n") 
+            time.sleep(2)
+            slowprint("Go to next location.")
+            time.sleep(2)
+
+        else:
+            slowprint("Incorrect code!\n\nGame Over!")
+            break
+
 # main dict
 
 corridor1 = OrderedDict({'Lucozade Orange': '34780',
