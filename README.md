@@ -1,4 +1,4 @@
-This a simple game I made as my first python project. The idea came from my jab as an order picker in a warehouse. 
+This a simple game I made as my first python project. The idea came from my job as an order picker in a warehouse. 
 The rules are straightforward: The code of the product will flash or blink for short moment and you will have to remember it
 and the prompt will ask you to input the number. If the number you input coresponds to the product code program will print out 
 a 'Product picked'! statement and if the code is wrong the message will be 'Incorrect code' and 'Game Over'!. 
